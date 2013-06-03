@@ -1,0 +1,29 @@
+#game {
+	height:300px;
+	width:300px;
+	text-align:center;
+	position:relative;
+}
+#game div {
+	font-family:calibri, arial; 
+	position: absolute;
+	line-height:2; 
+	border: 1px solid black; 
+	background-color: #cccccc; 
+	font-size:24px; 
+}
+
+.squares {
+	height:96px; 
+	width:96px; 
+	font-family:calibri, arial; 
+	position: absolute;
+	line-height:2; 
+	border: 2px solid black; 
+	background-color: #cccccc; 
+	font-size:48px; 
+}
+
+.hover {
+	background-color: blue;
+}
