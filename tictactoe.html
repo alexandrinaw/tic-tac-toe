@@ -10,23 +10,30 @@
 		<script type="text/javascript" src="game.js"></script>
 	</head>
 	<body>
-	
-		<div id="game">
-			<!--The following are the 9 tic-tac-toe squares -->
-			<div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> 
-		</div>
-
+        <h1>Tic Tac Toe</h1>	
 		<div id="game_info">
-			<button type="button" id = "new_game">New Game</button> 
-		vs
-			<select id="opponents">
+			Opponent: 
+            <select id="opponents">
 				<option value="human">Human</option>
-				<option value="easyAI">Stupid AI</option>
+				<option value="easyAI">Random AI</option>
 				<option value="mediumAI">Medium AI</option>
 				<option value="hardAI">Hard AI</option>
 			</select>
-			
+			<button type="button" id = "new_game">New Game</button>
 		</div>
-
+		</br>
+        <div id="game"></div>
+        <div id = "changeSize">
+            Change Board Size: 
+            <select id="boardSize">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button type="button" id = "boardSizeGo">Go</button>
+        </div>
 	</body>
+    <footer>
+            <a href = "https://github.com/alexandrinaw/tic-tac-toe">Github</p>
+    </footer>
 </html>
