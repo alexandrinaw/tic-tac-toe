@@ -3,7 +3,8 @@ tic-tac-toe
 A game of tic tac toe written in JavaScript for my [Hacker School](https://www.hackerschool.com/) application. 
 
 There are four choices for opponents: 
-*Human (on same computer)
+
+* Human (on same computer)
 * Hard AI
     An AI player that uses the [minimax](http://en.wikipedia.org/wiki/Minimax) algorithm with [alpha-beta pruning](http://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) to explore the full game depth. Guarenteed to win or draw.   
 * Medium AI    
