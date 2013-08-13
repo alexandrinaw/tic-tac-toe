@@ -2,6 +2,8 @@ tic-tac-toe
 ===========
 A game of tic tac toe written in JavaScript for my [Hacker School](https://www.hackerschool.com/) application. 
 
+Play it [here](http://alexwilson.us/tictactoe/)!
+
 There are four choices for opponents: 
 
 * Human (on same computer)
